@@ -1171,7 +1171,8 @@ body.page-exit-animation {
 }
 
 .service-content .service-content-container {
-  max-width: 1200px;
+  padding: 0 2rem;
+  max-width: 1264px;
   margin: 0 auto;
 }
 .service-content .content-section {
@@ -1255,7 +1256,10 @@ body.page-exit-animation {
   margin-top: 2rem;
 }
 .service-content .detail-card {
+  display: flex;
   flex: 1 1 280px;
+  flex-direction: column;
+  align-items: center;
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 15px;
@@ -1264,6 +1268,7 @@ body.page-exit-animation {
   transition: all 0.3s ease;
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
+          
 }
 .service-content .detail-card:hover {
   transform: translateY(-5px);
@@ -1568,12 +1573,12 @@ body.page-exit-animation {
 
 
 .project-gallery {
-            padding: 6rem 2rem;
+            padding: 0 2rem 6rem;
             background: #000;
         }
 
         .gallery-container {
-            max-width: 1400px;
+            max-width: 1264px;
             margin: 0 auto;
         }
 
